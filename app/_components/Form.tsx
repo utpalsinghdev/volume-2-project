@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Formik } from "formik";
-import { PlusCircleIcon, PlusSmallIcon } from "@heroicons/react/24/solid";
 
 const Form = () => {
   return (

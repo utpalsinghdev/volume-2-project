@@ -1,9 +1,8 @@
-import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+import React from "react";
 import Form from "./_components/Form";
-
-export default function Home() {
+export default async function Home() {
   return (
-    <form className="max-w-screen-md mx-auto sm:px-6 px-4 py-4 lg:px-8">
+    <div className="max-w-screen-md mx-auto sm:px-6 px-4 py-4 lg:px-8">
       <div className="space-y-12">
         <div className="border-b border-white/10 pb-12">
           <h2 className="text-base font-semibold leading-7 text-white">
@@ -15,6 +14,6 @@ export default function Home() {
         </div>
       </div>
       <Form />
-    </form>
+    </div>
   );
 }
