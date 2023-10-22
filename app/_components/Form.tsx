@@ -24,6 +24,7 @@ interface InitialValues {
   pin: string;
   a_record: AcademicRecord[];
 }
+
 const Form = () => {
   const sub_init: SubjectInfo = {
     subject: "",
@@ -341,11 +342,11 @@ const Form = () => {
                       autoComplete="address-level2"
                       className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6 [&_*]:text-black"
                     />
-                    {
+                    {/* {
                       <span className="text-red-500 text-sm">
                         {errors.a_record?.[idx]?.degree as string}
                       </span>
-                    }
+                    } */}
                   </div>
                 </div>
                 <h2 className="text-base font-semibold leading-7  text-white">
@@ -415,11 +416,11 @@ const Form = () => {
                           autoComplete="address-level2"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
-                        {
+                        {/* {
                           <span className="text-red-500 text-sm">
                             {errors.a_record?.[idx]?.subjects?.[index]?.subject}
                           </span>
-                        }
+                        } */}
                       </div>
                     </div>
 
@@ -462,11 +463,11 @@ const Form = () => {
                           autoComplete="address-level1"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
-                        {
+                        {/* {
                           <span className="text-red-500 text-sm">
                             {errors.a_record?.[idx]?.subjects?.[index]?.o_marks}
                           </span>
-                        }
+                        } */}
                       </div>
                     </div>
                     <div>
@@ -508,11 +509,11 @@ const Form = () => {
                           autoComplete="address-level1"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
-                        {
+                        {/* {
                           <span className="text-red-500 text-sm">
                             {errors.a_record?.[idx]?.subjects?.[index]?.f_marks}
                           </span>
-                        }
+                        } */}
                       </div>
                     </div>
                   </div>
@@ -541,3 +542,4 @@ const Form = () => {
 };
 
 export default Form;
+
